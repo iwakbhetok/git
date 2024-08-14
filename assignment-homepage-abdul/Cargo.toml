@@ -1,0 +1,9 @@
+[package]
+name = "assignment1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+actix-session = { version = "0.7", features = ["cookie-session"] }
+serde = { version = "1.0", features = ["derive"] }
